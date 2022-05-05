@@ -149,7 +149,7 @@ ul li:hover a {
 .banner {
 	background-color: #2D9AB7;
 	background-image: url(../images/parallax.png);
-	height: 400px;
+	height: 50%;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -208,10 +208,11 @@ footer .footer_column p {
 	max-height: 200px;
 }
 .LGBT{
-	width: 100%;
-	height: 100%;
-	max-width: 400px;
-	max-height: 200px;
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 200px;
+    padding-right: 10px;
 }
 
 footer .footer_column p {
