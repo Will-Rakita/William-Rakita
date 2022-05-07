@@ -22,6 +22,7 @@ body {
 header {
 	width: 100%;
 	height: auto;
+	margin: 0 auto;
 	min-height: 5%;
 	max-height: 30%;
 	background-color: #52bad5;
@@ -176,11 +177,12 @@ ul li:hover a {
 }
 .banner2 {
 	background-color: #B74a2d;
-	background-image: url(../images/parallax.png);
-	height: 50%;
-	background-attachment: fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 50%;
+	height:auto;
+	margin: 0 auto;
+	overflow:hidden;
+
 }
 .parallax {
 	color: #FFFFFF;
@@ -195,12 +197,14 @@ ul li:hover a {
 	text-align: left;
 	padding-left: 100px;
 	padding-top: 110px;
+	padding-bottom: 0px;
 	letter-spacing: 2px;
 	margin-top: 0px;
 }
 .parallax_description2 {
 	color: #FFFFFF;
 	text-align: left;
+	padding-bottom: 10px;
 	padding-left: 100px;
 	width: 30%;
 	float: left;
@@ -210,6 +214,7 @@ ul li:hover a {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+	text-align: wrap;
 }
 .parallax_description {
 	color: #FFFFFF;
